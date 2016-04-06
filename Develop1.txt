@@ -1,0 +1,8 @@
+git checkout master - moves to master branch
+git branch -D develop newfeature - deletes the branches named develop and newfeature
+git push origin :develop :newfeature -saves those changes to origin
+git tag -d V0.1 - deletes the v.01 tag
+git push origin :V0.1 - saves those changes to origin
+git reset --hard <last commit ID> - removes specified commit
+git push --force - saves all changes to repo
+ 
